@@ -6,13 +6,3 @@ before_install:
 script:
 - mkdir _build
 - pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build tex/*.tex
-deploy:
-  provider: releases
-  api_key:
-    secure: PC8fx6S6tg1C7nmytKNajAOutytrgk5i4kd3HB4NLSfS9fnEsu/I8LdPdSmSyop6DpG7yUJnQeqb+KzWsN9xGLsQ3WnOqX9gIDBJQw5lvoNguHdTUZ0nWoSw5NZy/XM40IaDOVPf9NTnPbcrRbFKz17tB3VZyZe+a+p3lMbAWsYiNc6hfGUxVwa3YGuJNnQiqiryWcwi6HFyVpw+dfXa7YMGijrqF1Q+FBYCM/Ij5VY0l+84o/BZm++72+JY3DDW5+VpLo3mGiTwtpM4QdKIfNEUTzyTurW5ISzHk/639k5U2+yKE8nd/AiALnsTOsrDii4bWKaYCEMtC133hHq9FQA+dQ+lFnJBMZVEcGv4bAOfsO0p8RDND+e02pJGaNCE+8sLZKnkUGrgd3aszSrdBkcmy92S9tTM+CEyMLv793Z4dIc1X833O63W6LFfuI/LceyBKv9S/QTtUafSc5iGfsyKjPmqSnt8+0+Lnum0WdLm5CQi1dA5wycYMH1Su5t5VF84ym3BntKF3Jcbbca91aySxyzucYoWtud2a3ZFS0/CB/Cprtw4fe1F1CH+qb48J9xcUXhwNOOgz1Ys1sHa9uYVSxNEswVa1gqz58fLV8Uaa8tR2EPH6AbxJ/BehVAaDPcKEq44CY2GBSPepOfER+yV/X57Uvs+UZ457MH+2/U=
-  file:
-  - _build/example.pdf
-  skip_cleanup: true
-env:
-  global:
-  - GITHUB_REPO: ntuukpi/latex_to_pdf
