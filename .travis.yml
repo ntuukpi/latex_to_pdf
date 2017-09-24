@@ -8,7 +8,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: 
+    secure: "kAYUJotixlcOfVntxe/TrOd1EQ56TyFvssUBDLU7/NSypv1CAsE3W0XrVK+gcGt3fcxvp2yUmBMwoIyhMI7UydiHr6Le4XUwNEu/pnB3WdFX6sZr5DP2230y+5YaoMtibS1/cEZ0IHx6wQnhg8WHuPQGEHw/BUViBHiuH3JhQyVKU8agVogYU66R7kknNyX/pa+ltO9xO333myW0MNXPoBntEtGTWB5unJXNZGp343lWkhgqRK2jq9O0V4Ndvk/HPYmuyIw9lxtfQ2g44X5Yf6LX5gUJIEVo/Fg54DbVuqhNQ/LwbnnpZ1h+gZQnMA1nZukGgKLZ7GMHfBngqKBWGF8nNC1Ck1gp7EfBpyZ1j91zAe0NekoHMpm9yY8gZGGWGHD+qQuyVgyRcbnnVGMzyPWCyUz7FH9ccdXLPJL9VoBqWAPbhdd8Vruwabv0N03Eus55lil7JWmFjNlAtur3LWibt+/LDhe7V/7G6aLunvUy6uKhuQZxDM6JHeeNYJ//iDzQHXBEFbNd/BCiJKdkG0W9Rz45hhFxwCGo0O6RkULL/wC8VzJrDBEkOzXMLY/GiMJCcfZFO+74DluLO6/qd4G/ttE1wCvlh97Qp6eCcOwVxsjnFVNANp7zUGI4oIksZR7MgfBAvkhO0Xjg1lk1XiffKAVfhWgZT7E0mQ3GdGk="
   file:
   - _build/example.pdf
   skip_cleanup: true
