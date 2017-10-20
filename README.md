@@ -10,6 +10,9 @@
 * В папці `tex` заміни `example.tex` на свій файл `.tex`
 * Якщо ти користуєшся додатковими пакетами LaTeX - додай їх інсталяцію в '.travis-ci.yml'
 
+Український переклад книги про уживання LaTeX можні знайти в репзиторії [ntuukpi/books](https://github.com/ntuukpi/books/blob/master/not_so_short_intro_to_latex.pdf)
+
+
 TODO:
 
 * Централізоване рішення для встановлення додатків до LaTeX.
